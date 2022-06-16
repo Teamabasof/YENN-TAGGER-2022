@@ -12,7 +12,7 @@ import os
 from pyrogram import Client, filters    
 from pyrogram.types import Message  
 
-from Config import ADMIN, BOT_USERNAME, COMMAND, admins
+from Config import ADMIN, USERNAME, COMMAND, admins
 from modules.helpers import admin, reload 
 from languages import get_str, lan
 
